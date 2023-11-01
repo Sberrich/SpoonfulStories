@@ -1,0 +1,19 @@
+{
+  "name": "spoonfulstories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-cli": "^10.1.0"
+  }
+}
